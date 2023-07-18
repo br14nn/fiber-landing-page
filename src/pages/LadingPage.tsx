@@ -1,12 +1,11 @@
 import Navbar from "../components/Navbar/Navbar";
 
 export default function () {
-	return (
-		<main className="overflow-y-auto aria-hidden:">
-			<section className="bg-vista-white h-screen min-h-[720px] py-10 px-28 screen-1024px:px-10">
-				<Navbar />
-			</section>
-			<section className="bg-white h-screen min-h-[720px]"></section>
-		</main>
-	);
+  return (
+    <main className="overflow-y-auto">
+      <Navbar />
+      <section className="h-screen min-h-[720px] bg-vista-white px-28 py-10"></section>
+      <section className="h-screen min-h-[720px] bg-white"></section>
+    </main>
+  );
 }
