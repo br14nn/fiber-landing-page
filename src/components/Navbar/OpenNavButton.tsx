@@ -6,7 +6,7 @@ type TOpenNavButtonProps = {
 export default function (props: TOpenNavButtonProps) {
   return (
     <button
-      className={`hidden screen-800px:block ${props.className}`}
+      className={`${props.className}`}
       id="openNavButton"
       onClick={props.onClick}
     >

@@ -6,7 +6,7 @@ type TCloseNavButtonProps = {
 export default function (props: TCloseNavButtonProps) {
   return (
     <button
-      className={`hidden screen-800px:block ${props.className}`}
+      className={`${props.className}`}
       id="closeNavButton"
       onClick={props.onClick}
     >
