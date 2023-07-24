@@ -1,4 +1,4 @@
-import CheckMark from "./CheckMark";
+import CheckMark from "../../assets/svg/CheckMark";
 
 type TFreeTrialTierProps = {
   className?: string;

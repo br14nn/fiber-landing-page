@@ -1,3 +1,5 @@
+import HamburgerMenu from "../../assets/svg/HamburgerMenu";
+
 type TOpenNavButtonProps = {
   className?: string;
   onClick?: React.MouseEventHandler;
@@ -10,18 +12,7 @@ export default function (props: TOpenNavButtonProps) {
       id="openNavButton"
       onClick={props.onClick}
     >
-      <svg
-        width="24"
-        height="20"
-        viewBox="0 0 24 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M24 4H0V0H24V4ZM24 8H0V12H24V8ZM24 16H0V20H24V16Z"
-          fill="black"
-        />
-      </svg>
+      <HamburgerMenu />
     </button>
   );
 }

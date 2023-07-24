@@ -1,4 +1,4 @@
-import Star from "./Star";
+import Star from "../../assets/svg/Star";
 
 type TRatingsProps = {
   className?: string;

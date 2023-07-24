@@ -9,9 +9,14 @@ export default {
         liver: "rgba(79,79,79,1.0)",
       },
       screens: {
-        "screen>1600": "1600px",
-        "screen<1024": { max: "1024px" },
-        "screen<600": { max: "600px" },
+        desktop: "1920px",
+        "laptop-max": "1600px",
+        tablet: { max: "1024px" },
+        "mobile-max": { max: "600px" },
+        mobile: { max: "360px" },
+      },
+      fontSize: {
+        "3xl": "1.75rem",
       },
     },
   },
