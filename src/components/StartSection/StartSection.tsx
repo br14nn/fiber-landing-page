@@ -37,7 +37,8 @@ export default function () {
         <img
           className="relative ml-auto h-full w-full tablet:mx-auto tablet:max-w-[520px] mobile-max:min-w-[248px]"
           src={HeroImg}
-          alt="hero-image"
+          alt="hero image"
+          loading="lazy"
         />
       </div>
     </section>

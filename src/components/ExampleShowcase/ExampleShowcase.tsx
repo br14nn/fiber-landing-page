@@ -22,6 +22,7 @@ export default function () {
         height={450}
         src={PageImage}
         alt="page image"
+        loading="lazy"
       />
     </div>
   );
