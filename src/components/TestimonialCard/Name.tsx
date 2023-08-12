@@ -3,5 +3,9 @@ type TNameProps = {
 };
 
 export default function (props: TNameProps) {
-  return <span className="font-bold text-violet-blue">{props.children}</span>;
+  return (
+    <span className="select-none font-bold text-violet-blue">
+      {props.children}
+    </span>
+  );
 }

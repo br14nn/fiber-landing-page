@@ -1,8 +1,8 @@
 import Ratings from "../Ratings/Ratings";
-import StartFreeTrialButton from "../StartFreeTrialButton/StartFreeTrialButton";
 import ViewExamplesAnchor from "../ViewExamplesAnchor/ViewExamplesAnchor";
 import FreeTrialTier from "../FreeTrialTier/FreeTrialTier";
 import HeroImg from "../../assets/image/hero_illustration.webp";
+import StartFreeTrialButtonViolet from "../StartFreeTrialButton/StartFreeTrialButtonViolet";
 
 export default function () {
   return (
@@ -17,9 +17,7 @@ export default function () {
           dozens of premade, beautiful templates.
         </p>
         <div className="flex flex-row items-center gap-8 tablet:justify-center tablet:gap-5 mobile-max:flex-col">
-          <StartFreeTrialButton className="bg-violet-blue text-white laptop-max:text-xl mobile-max:w-full">
-            Start Free Trial
-          </StartFreeTrialButton>
+          <StartFreeTrialButtonViolet />
           <ViewExamplesAnchor className="laptop-max:text-xl">
             View Examples
           </ViewExamplesAnchor>

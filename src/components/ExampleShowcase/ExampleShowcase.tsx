@@ -1,5 +1,5 @@
 import PageImage from "../../assets/image/page_image.webp";
-import StartFreeTrialButton from "../StartFreeTrialButton/StartFreeTrialButton";
+import StartFreeTrialButtonWhite from "../StartFreeTrialButton/StartFreeTrialButtonWhite";
 
 export default function () {
   return (
@@ -12,9 +12,7 @@ export default function () {
           Create an even more impressive portfolio by creating case studies for
           your projects. Simply follow our step-by-step guide
         </p>
-        <StartFreeTrialButton className="mt-2 bg-white text-violet-blue laptop-max:text-xl tablet:mx-auto mobile-max:mx-0 mobile-max:w-full">
-          Start Free Trial
-        </StartFreeTrialButton>
+        <StartFreeTrialButtonWhite />
       </div>
       <img
         className="w-[60%] tablet:w-full"

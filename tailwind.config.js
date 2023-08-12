@@ -6,11 +6,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "vista-white": "rgba(251,248,243,1.0)",
-        "violet-blue": "rgba(77,19,209,1.0)",
-        liver: "rgba(79,79,79,1.0)",
-        "link-water": "rgba(230,222,253,1.0)",
-        "light-grey": "rgba(218,218,218,1.0)",
+        "vista-white": "#fbf8f3",
+        "violet-blue": "#4d13d1",
+        liver: "#4f4f4f",
+        "link-water": "#e6defd",
+        "light-grey": "#dadada",
       },
       screens: {
         desktop: "1920px",

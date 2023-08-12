@@ -3,6 +3,7 @@ import OpenMenuButton from "./OpenNavButton";
 import CloseNavButton from "./CloseNavButton";
 import CloseNavBackground from "./CloseNavBackground";
 import { useAnimate } from "framer-motion";
+import SignUpLink from "./SignUpLink";
 
 export default function () {
   const [scope, animate] = useAnimate();
@@ -55,9 +56,7 @@ export default function () {
 
         <ul className="flex w-3/12 flex-row items-center justify-end gap-6 font-bold laptop-max:text-xl tablet:w-full tablet:justify-center">
           <List>Sign In</List>
-          <List className="rounded bg-violet-blue px-5 py-4 text-white">
-            Sign Up
-          </List>
+          <SignUpLink />
         </ul>
       </div>
     </nav>

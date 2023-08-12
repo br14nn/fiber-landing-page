@@ -19,8 +19,6 @@ export default function (props: TCommentProps) {
   );
 
   useEffect(() => {
-    console.log(paragraphRef.current.scrollHeight);
-
     if (paragraphRef.current.scrollHeight >= 120) {
       setReadMoreButtonVisibility(true);
     }
@@ -52,7 +50,7 @@ export default function (props: TCommentProps) {
 
   return (
     <div>
-      <p className={`${hiddenTextVisibility}`} ref={paragraphRef}>
+      <p className={`${hiddenTextVisibility} select-none`} ref={paragraphRef}>
         {props.children}
       </p>
       {readMoreButtonVisibility && (

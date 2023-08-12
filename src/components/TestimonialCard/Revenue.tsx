@@ -3,5 +3,5 @@ type TRevenueProps = {
 };
 
 export default function (props: TRevenueProps) {
-  return <span className="">{props.children}</span>;
+  return <span className="select-none">{props.children}</span>;
 }
