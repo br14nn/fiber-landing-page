@@ -11,6 +11,7 @@ export default {
         liver: "#4f4f4f",
         "link-water": "#e6defd",
         "light-grey": "#dadada",
+        "purple-mimosa": "#A587FF",
       },
       screens: {
         desktop: "1920px",
